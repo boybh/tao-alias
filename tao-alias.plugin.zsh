@@ -3,9 +3,9 @@ declare -r alias_maker_version="1.1.1"
 declare -r alias_maker_name="tao-alias"
 
 # Check if Oh My Zsh is installed
-#if [[ -z "$ZSH" ]]; then
+if [[ -z "$ZSH" ]]; then
 #    echo "Lỗi: Oh My Zsh không được cài đặt trên hệ thống của bạn. Vui lòng cài đặt trước khi sử dụng #plugin 
-#    $alias_maker_name."
+    $alias_maker_name."
  #   echo "Bạn có thể tải Oh My Zsh từ https://ohmyz.sh"
 $    return 1
 #fi
